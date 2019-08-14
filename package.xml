@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Jaljale_Social_Tags</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Social Meta inserts Facebook Open Graph (og tags) and Twitter Cards (twitter tags) automatically in your store. Hence giving you better control how your pages appear in social stream when it is shared. Facebook Open Graph allows any web page to have the same functionality as any other object on Facebook and for Twitter you can use Twitter Card. Use this extension to Make your Magento store Graph compatible and enable any web page on your site to become a rich object in a social graph. &#xD;
+</summary>
+    <description>Social Meta inserts Facebook Open Graph (og tags) and Twitter Cards (twitter tags) automatically in your store. Hence giving you better control how your pages appear in social stream when it is shared. Facebook Open Graph allows any web page to have the same functionality as any other object on Facebook and for Twitter you can use Twitter Card. Use this extension to Make your Magento store Graph compatible and enable any web page on your site to become a rich object in a social graph. &#xD;
+</description>
+    <notes>Initial version for Facebook Open Graph and Twitter Cards</notes>
+    <authors><author><name>Krish</name><user>jaljale</user><email>jaljaletech@gmail.com</email></author><author><name>Subin Shrestha</name><user>sthasbin</user><email>sthasbin@jaljale.com</email></author></authors>
+    <date>2015-06-17</date>
+    <time>05:03:43</time>
+    <contents><target name="magecommunity"><dir name="Jaljale"><dir name="OpenGraph"><dir name="Block"><file name="Index.php" hash="373efd5a6abdd94655f809baab524eb6"/></dir><dir name="Helper"><file name="Data.php" hash="0523e2a4b93602d4975f8c2adae0127a"/></dir><dir name="controllers"><file name="IndexController.php" hash="970ebec884c711e8b62d36646db615a7"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6761aa4de7c9edc4dbfda4cb9bce7b31"/><file name="config.xml" hash="76f2468c41e89a8d7038464ad24722a5"/><file name="system.xml" hash="7471567f8985aae8a3c76a012cffb1eb"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="opengraph.xml" hash="1b6501b1826228932a973609f521bdd2"/></dir><dir name="template"><dir name="opengraph"><file name="index.phtml" hash="8f04b3e1d2c2886f53828a3409ddfe15"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jaljale_OpenGraph.xml" hash="20851daa8f866252a6ec02578d33e432"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.3</min><max>6.5.5</max></php></required></dependencies>
+</package>

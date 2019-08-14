@@ -1,0 +1,25 @@
+<?php 
+	if($this->getFbEnable()): 
+		if($this->getFbId()): ?>
+			<meta property="fb:app_id" content="<?php echo $this->getFbId(); ?>">
+			<meta property="og:title" content="<?php echo $this->getTitle(); ?>">
+			<meta property="og:site_name" content="<?php echo $this->getSiteName(); ?>">
+			<meta property="og:description" content="<?php echo $this->getDescription(); ?>">
+			<meta property="og:url" content="<?php echo $this->getContent(); ?>">
+			<meta property="og:type" content="<?php echo $this->getType(); ?>">
+			<meta property="og:locale" content="<?php echo $this->getLocale(); ?>">
+			<meta property="og:image" content="<?php echo $this->getImage(); ?>">
+<?php 
+		endif;
+	endif;
+
+	if($this->getTwitterEnable()): ?>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:widgets:csp" content="on">
+		<meta name="twitter:url" content="<?php echo $this->getContent(); ?>">
+		<meta name="twitter:description" content="<?php echo $this->getDescription(); ?>">
+		<meta name="twitter:title" content="<?php echo $this->getTitle(); ?>">
+		<meta name="twitter:site" content="<?php echo $this->getSiteName(); ?>">
+		<meta name="twitter:image" content="<?php echo $this->getImage(); ?>">
+
+<?php endif; ?>
