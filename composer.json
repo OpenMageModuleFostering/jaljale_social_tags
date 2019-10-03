@@ -1,17 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Jaljale_Social_Tags",
-    "type": "magento-module",
-    "license": "GNU-General-Public-License-(GPL)",
-    "homepage": "",
-    "description": "Social Meta inserts Facebook Open Graph (og tags) and Twitter Cards (twitter tags) automatically in your store. Hence giving you better control how your pages appear in social stream when it is shared. Facebook Open Graph allows any web page to have the same functionality as any other object on Facebook and for Twitter you can use Twitter Card. Use this extension to Make your Magento store Graph compatible and enable any web page on your site to become a rich object in a social graph. 
-",
-    "authors": [
-    {
-        "name": "Krish",
-        "email": "jaljaletech@gmail.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
